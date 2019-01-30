@@ -164,9 +164,10 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 300px);
+    grid-gap: 25px;
 }
 
-#servicesCont h5 {
+.headingItems {
     color: #fdc501;
     margin-bottom: 20px;
 }
@@ -184,5 +185,6 @@ a {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 300px);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 25px;
 }
